@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hd {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    background: #503f32;
+    height: 85px;
+    color: #fff;
+    width: 100%;
+    min-width: 1280px;
+}
+/*
+.hd { 
+    height: 300px; 
+    width: 600px; 
+    border: 1px solid #999; 
+    background: #0E0E0E; 
+    background: -moz-linear-gradient(-45deg, #0E0E0E 0%,#787978 51%,#0E0E0E 99%); 
+    background: -webkit-linear-gradient(-45deg, #0E0E0E 0%,#787978 51%,#0E0E0E 99%); 
+    background: linear-gradient(135deg, #0E0E0E 0%,#787978 51%,#0E0E0E 99%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0E0E0E 0%',  endColorstr='undefined', GradientType=1 ); 
+}*/
+
+.hd > .inner {
+    height: 85px;
+    width: 1800px;
+    margin: 0 60px;
+    padding: 0 300px;
+    min-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #454545;
+}
+
+.hd .logo {
+    float: left;
+    display: inline-block;
+    /*padding-top: 10px;*/
+    padding-right: 107px;
+    width: 181px;
+}
+
+.hd .logo img {
+    width: 160px;
+    height: 60px;
+    vertical-align: top;
+}
+
+.hd .menu {
+    list-style: none;
+    display: block;
+    /*list-style-type: disc;*/
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 180px;
+    padding-left: 280px;
+}
+
+.menu > li {
+    border-bottom: 2px solid #f3e089;
+}
+
+.hd ul.menu > li {
+    margin: 3px 18px 0px;
+    font-size: 17px;
+    padding: 13px 7px 26px;
+    color: #c9c9c9;
+    font-family: 'Noto Medium';
+    cursor: Pointer;
+    float: left;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+}
+
+.hd ul.menu_right {
+    float: right;
+    padding-top: 20px;
+}
+
+.hd ul.menu_right a {
+    color: #fff;
+    font-family: 'Noto Light';
+}
+
+.hd ul.menu_right li {
+    font-size: 13px;
+    margin: 0;
+    padding: 0 15px 0;
+    border-left: 1px solid #675344;
+    letter-spacing: -1px;
+    list-style: none
+}
+
+.hd .menu_right li {
+    float: left;
+}
+
+.hd .menu_right li:first-child {
+    border: 0;
+}
+
+.sub li {
+    padding: 5px 0px 5px;
+    height: 5px;
+    list-style: none;
+    text-align: center;
+}
