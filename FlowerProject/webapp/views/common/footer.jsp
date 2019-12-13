@@ -36,11 +36,10 @@
             </div>
 
 
-            <h2 class="footer-heading mb-4">Follow Us</h2>
-            <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            <h2 class="footer-heading mb-4">사이트 규약</h2>
+            <a href="views/common/email.jsp" class="pl-3 pr-3">이메일 수집</a> <br />
+            <a href="views/common/private.jsp" class="pl-3 pr-3">개인정보 처리방침</a> <br />
+            <a href="views/common/TermsofUse" class="pl-3 pr-3">이용약관</a>
             </form>
           </div>
         </div>
@@ -48,7 +47,7 @@
           <div class="col-md-12">
             <div class="border-top pt-5">
               <p>
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart" aria-hidden="true"></i> Team.GENTLES in KH Academy 352 Class 
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart" aria-hidden="true"></i> Team.GENTLE'S in KH Academy 352 Class 
                 <br> 
                 This Web application is licensed under CC BY 3.0.
                 </p>

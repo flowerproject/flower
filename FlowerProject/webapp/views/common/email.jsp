@@ -1,22 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<!DOCTYPE html>
+   pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>이메일 </title>
-<style type="text/css">
- a:link { color: red; text-decoration: none;}
- a:visited { color: snow; text-decoration: none;}
- a:hover { color: snow; text-decoration: underline;}
-</style>
+  <head>
+    <c:import url="commonUtil.jsp" />
+    <link rel="stylesheet" href="../../resuorces/css/SubPageBtn.css" />
+  </head>
 
-</head>
-<body>
-<div class="container-fluid">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+   	<div class="site-wrap">
+		<c:import url="header.jsp"/>
+        	
+        	<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<h2 class="titDepth1">
@@ -43,5 +42,11 @@
 	
 	</div>
 </div>
-</body>
+        	
+        	
+        	
+		<c:import url="footer.jsp" />
+	</div>
+  </body>
+
 </html>
