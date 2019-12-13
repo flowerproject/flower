@@ -23,7 +23,7 @@
               <a href="${pageContext.request.contextPath }/index.jsp" class="text-black"><img class="logo" src="${pageContext.request.contextPath }/resources/images/flowerProjectPoto.png" alt="" /></a>
             </div>
 
-            <div class="col-10">
+            <div class="col-9">
               <nav class="site-navigation text-right ml-auto " role="navigation">
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
@@ -32,7 +32,7 @@
 
 
                   <li>
-                    <a href="#about-section" class="nav-link">정보</a>
+                    <a href="views/infoBoard/info.jsp" class="nav-link">정보</a>
                     
                   </li>
 
@@ -45,12 +45,23 @@
               </nav>
 
             </div>
-			<div class="col-2">
-				<button class="btn btn-light">로그인</button>
+			<div class="col-3">
+				<button class="btn btn-light" onclick="memberLogin()">로그인</button> &nbsp;
+				<button class="btn btn-light" onclick="memberJoin()">회원가입</button>
 			</div>
             <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
+	
           </div>
         </div>
-
+		<script>
+		function memberLogin(){
+			location.href = "${ pageContext.request.contextPath }/views/member/memberLoginForm.jsp";
+		}
+		
+		function memberJoin() {
+			location.href = "${ pageContext.request.contextPath }/views/common/signUp.jsp";
+		}
+		
+		
+		</script>
       </header>

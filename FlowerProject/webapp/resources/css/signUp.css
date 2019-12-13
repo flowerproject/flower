@@ -1,0 +1,18 @@
+@charset "UTF-8";
+     #memberJoinBtn, #loginBtn{
+            font-weight: bold;
+            font-size: medium;
+        }
+        #signUpImg1{
+            width: 500px;
+            height: auto;
+        }
+        #signUpImg2{
+            width: 500px;
+            height: auto;
+        }
+        #signUpLogo{
+            width: 100px;
+            height: auto;
+        }
+        

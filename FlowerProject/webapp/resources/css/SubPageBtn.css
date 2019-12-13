@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+ a:link { color: red; text-decoration: none;}
+ a:visited { color: snow; text-decoration: none;}
+ a:hover { color: snow; text-decoration: underline;}
