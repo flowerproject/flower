@@ -38,19 +38,43 @@
 
                   <li><a href="#why-us-section" class="nav-link">고객센터</a></li>
 
-                  <li><a href="#testimonials-section" class="nav-link">마이 페이지</a></li>
-                  <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                  <li><a href="${pageContext.request.contextPath}/views/mypage/mypageList.jsp">마이 페이지</a></li>
+                  <li><a href="${pageContext.request.contextPath}/selectList.no" class="nav-link">공지사항</a></li>
                   <li><a href="#contact-section" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
 
             </div>
 			<div class="col-2">
-				<button class="btn btn-light">로그인</button>
+			  <c:if test="${ empty Customer && empty Business }">
+				<button class="btn btn-light" onclick="memberLogin()">로그인</button> &nbsp;
+				<button class="btn btn-light" onclick="memberJoin()">회원가입</button>
+			  </c:if><c:if test="${!empty Customer || !empty Business }">
+				<div id="userInfo">
+				  <label>${ !empty Business.b_incharge ?  Business.b_incharge : Customer.c_name }님의 방문을 환영합니다.</label>
+				  <div class="btns" align="right">
+				    <div id="logoutBtn" onclick='logout()'>로그아웃</div> 
+				  </div>
+				</div>
+		</c:if>
 			</div>
             <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
           </div>
         </div>
+        
+        <script>
+		function memberLogin(){
+			location.href = "${ pageContext.request.contextPath }/views/member/memberLoginForm.jsp";
+		}
+		
+		function memberJoin() {
+			location.href = "${ pageContext.request.contextPath }/views/common/signUp.jsp";
+		}
+		function logout(){
+			location.href= "${ pageContext.request.contextPath }/logout1.me";
+		}
+		
+		</script>
 
       </header>

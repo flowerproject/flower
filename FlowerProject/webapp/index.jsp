@@ -638,6 +638,7 @@
       </div>
     </div>
 	</div>
+	</div>
 	<c:import url="views/common/footer.jsp" />
   </body>
 

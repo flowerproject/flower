@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/mappers/business.properties=UTF-8
+encoding//src/mappers/customer.properties=UTF-8
+encoding//src/mappers/notice.properties=UTF-8
 encoding/<project>=UTF-8

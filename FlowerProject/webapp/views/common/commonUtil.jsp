@@ -9,17 +9,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/fonts/icomoon/style.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/resources/tmp/fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/css/bootstrap.min.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/css/aos.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/css/jquery.fancybox.min.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/css/owl.carousel.min.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/css/owl.theme.default.min.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/css/aos.css">
  	<link rel="shortcut icon" href="${pageContext.request.contextPath }/resources/images/favicon.png">
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/tmp/css/style.css">
+    <link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/resources/tmp/css/style.css">
     
     <script src="${pageContext.request.contextPath }/resources/js/jquery-3.4.1.min.js"></script>
     
